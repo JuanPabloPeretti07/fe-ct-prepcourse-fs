@@ -7,6 +7,10 @@ function elevar(num, exponent) {
   // 2, 2 ---> 4
   // 0, 5 ---> 0
   // Tu código:
-}
+    // Elevar el número al exponente utilizando el operador de exponente **
+    return num ** exponent;
+  }
+  console.log(elevar(2,2)); // Devuelve: 4
+  console.log(elevar(0,5)); // Devuelve: 0
 
 module.exports = elevar;

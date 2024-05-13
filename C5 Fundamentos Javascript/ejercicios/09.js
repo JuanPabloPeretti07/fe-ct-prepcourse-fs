@@ -8,6 +8,19 @@ function esNuloOIndefinido(valor) {
   // 22 ---> false
   // "texto" ---> false
   // Tu código:
-}
+    // Verificar si el valor es null o undefined y retornar true
+    if (valor === null || typeof valor === 'undefined') {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  // Ejemplos de uso:
+  console.log(esNuloOIndefinido(null)); // Salida: true
+  console.log(esNuloOIndefinido(undefined)); // Salida: true
+  console.log(esNuloOIndefinido(22)); // Salida: false
+  console.log(esNuloOIndefinido("texto")); // Salida: false
+  
 
 module.exports = esNuloOIndefinido;
