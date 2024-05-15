@@ -9,18 +9,13 @@ function sumarHastaNConBreak(n) {
   // Iterar desde 1 hasta n y sumar cada número
   for (let i = 1; i <= n; i++) {
     suma += i;
-    
-    
-    suma += i;
   
 // Verificar si la suma supera 100
     if (suma > 100) {
       break;
     }
   }
-
-  
-    
+   
   
 return suma;
    

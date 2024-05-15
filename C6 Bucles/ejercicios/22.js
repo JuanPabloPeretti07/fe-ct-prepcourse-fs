@@ -5,12 +5,9 @@ function doWhile(num) {
   // Tu código:
   
   let contador = 0; // Para llevar la cuenta de las iteraciones
-  
- 
 do {
     num += 5; // Aumentar num en 5 en cada iteración
     contador++; 
-    contador++;
 // Incrementar el contador de iteraciones
   } while (contador < 8); // Continuar mientras el contador sea menor que 8
   return num; // Devolver el valor final de num

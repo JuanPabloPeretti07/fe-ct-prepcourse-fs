@@ -11,7 +11,7 @@ function saludo(idioma) {
     case "mandarin":
       return "Ni Hao!";
     case "ingles":
-      return "Hello";
+      return "Hello!";
    
     default:
       return "Hola!";

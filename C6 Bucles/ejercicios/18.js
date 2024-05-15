@@ -20,6 +20,5 @@ function productoEntreNúmeros(a, b) {
 console.log(productoEntreNúmeros(1, 5)); // Devuelve: 120 (1 * 2 * 3 * 4 * 5)
 console.log(productoEntreNúmeros(3, 7)); // Devuelve: 2520 (3 * 4 * 5 * 6 * 7)
 console.log(productoEntreNúmeros(5, 3)); // Devuelve: "Error: a debe ser menor o igual que b"
-console.log(productoEntreNúmeros(1, 1)); // Devuelve: 1 (1 * 1)
 
 module.exports = productoEntreNúmeros;

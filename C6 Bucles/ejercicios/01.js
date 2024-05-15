@@ -4,7 +4,7 @@ function esIgualYNegativo(a, b) {
   // De ser así, retorna true, de lo contrario, retorna false.
   // Tu código:
    // Verificar si a y b son números negativos e iguales
-   if (a < 0 && b < 0 && a === b) {
+   if (a === b && (a < 0 && b < 0 )) {
     return true;
   } else {
     return false;
